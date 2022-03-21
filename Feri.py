@@ -112,7 +112,7 @@ async def type_and_send(message):
 async def start(_, message):
     await feri.send_chat_action(message.chat.id, "typing")
     await sleep(2)
-    await message.reply_text("**Assalamualaikum**")
+    await message.reply_text("**Hii How are you!**")
 
 
 @feri.on_message(
